@@ -69,16 +69,22 @@ img {
     height: auto;
 }
 
+h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
 .section1 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 20px 40px 80px 40px;
 }
 
-h2{
-    text-align: center;
-    padding-top: 30px;
+.both {
+    display: flex;
+    max-width: 700px;
 }
 
 .boxparagraph {
@@ -104,20 +110,28 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 90px;
+    align-items: center;
+    padding: 40px 90px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
 }
 
 .quote p {
     font-style: italic;
     color: #1f2937;
-    font-size: 36px;
-    margin-bottom: 0;
+    font-size: 30px;
+    margin: 0;
+    line-height: 40px;
 }
 
 .thor {
     font-weight: bold;
     align-self: flex-end;
-    padding-top: 0;
+    padding-top: 5px;
 }
 
 .section3{
